@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+}
+
+.navContainer {
+  background-color: rgb(222, 74, 74);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+} 
+
+.subNav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.link {
+  color: white;
+}
+
+.view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  align-items: center;
+  gap: 15px;
+}
+
+button {
+  background-color:rgb(222, 74, 74);
+  color: white;
+  border-radius: 5px;
+}
+
+.descripcion {
+  width: 600px;
+  height: 150px;
+}
